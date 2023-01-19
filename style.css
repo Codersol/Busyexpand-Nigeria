@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'josefin sans', sans-serif;
+
+}
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+
+body{
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+.card-one .h1{
+    font-size: 14px;
+
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem;
+    padding: 60px 30px;
+    background-color: #fff;
+    margin-left: 170px;
+
+}
+
+.card-one{
+    padding: 3rem;
+    border: 1px solid #fff;
+    background: #fff;
+     font-size: 1.3rem;
+    border-radius: 13px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 
+}
+
+  
+
+.hero{
+    height:  110vh;
+    width: 100%;
+    
+    
+}
+
+nav{
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    padding:20px  50px  ;
+  
+   
+}
+nav p{
+    display: inline-block;
+    padding: 5px;
+    margin-inline-end: auto;
+    padding-top: 16px;
+    font-style: bold;
+    font-weight: 300;
+}
+
+nav img{
+    width: 50px;
+}
+
+
+.btn{
+    display: inline-block;
+    background-color: #77B34B;
+    font-family: 'Poppins', sans-serif;
+    padding: 6px 9px;
+    font-size: 12px;
+    font-weight: 300;
+    border-radius: 5px;
+    border: 1px solid #75B443;
+    color: aliceblue;
+   
+}
+
